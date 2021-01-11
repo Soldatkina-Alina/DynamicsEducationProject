@@ -72,6 +72,7 @@
     <Compile Include="Communication\PreCommunicationCreate.cs" />
     <Compile Include="Invoice\Handler\ChangeFact.cs" />
     <Compile Include="Invoice\PostInvoiceCreate.cs" />
+    <Compile Include="Invoice\PostInvoiceUpdate.cs" />
     <Compile Include="Invoice\PreInvoiceDelete.cs" />
     <Compile Include="Invoice\PreTypeInvoiceCreate.cs" />
     <Compile Include="Invoice\PreTypeInvoiceUpdate.cs" />

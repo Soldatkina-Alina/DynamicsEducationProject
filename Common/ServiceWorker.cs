@@ -70,6 +70,26 @@ namespace Common
             }
         }
 
+        public Entity GetEntitty(Guid id, string name, ColumnSet columnSet = null)
+        {
+            if (columnSet == null)
+            return service.Retrieve(name, id, new ColumnSet(true));
+            else return service.Retrieve(name, id, columnSet);
+        }
+
+        public void UpdateAttribute<T> (Entity entity, string Attribute, T value)
+        {
+            try
+            {
+                entity.Attributes[Attribute] = value;
+                service.Update(entity);
+            }
+            catch (Exception ex)
+            {
+                traceService.Trace($"Entity Id: {entity.Id}, Atrribute: {Attribute}, Value: {value}");
+                throw new InvalidPluginExecutionException(ex.Message);
+            }
+        }
         public EntityCollection RetrieveMultiple(QueryExpression queryExpression)
         {
             try

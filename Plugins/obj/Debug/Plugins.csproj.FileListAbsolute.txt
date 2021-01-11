@@ -7,3 +7,12 @@ C:\Users\Alina\Documents\С#\DynamicsEducationProject\Plugins\obj\Debug\Plugins.
 C:\Users\Alina\Documents\С#\DynamicsEducationProject\Plugins\obj\Debug\Plugins.csproj.CopyComplete
 C:\Users\Alina\Documents\С#\DynamicsEducationProject\Plugins\obj\Debug\Plugins.dll
 C:\Users\Alina\Documents\С#\DynamicsEducationProject\Plugins\obj\Debug\Plugins.pdb
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\bin\Debug\Plugins.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\bin\Debug\Plugins.pdb
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\bin\Debug\Common.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\bin\Debug\Common.pdb
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\obj\Debug\Plugins.csprojAssemblyReference.cache
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\obj\Debug\Plugins.csproj.CoreCompileInputs.cache
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\obj\Debug\Plugins.csproj.CopyComplete
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\obj\Debug\Plugins.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Plugins\obj\Debug\Plugins.pdb

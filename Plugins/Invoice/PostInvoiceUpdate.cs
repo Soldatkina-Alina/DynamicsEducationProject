@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Plugins.Invoice
 {
-    public class PostInvoiceCreate : IPlugin
+    public class PostInvoiceUpdate : IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {
