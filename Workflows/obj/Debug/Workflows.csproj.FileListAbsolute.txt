@@ -1,0 +1,9 @@
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\bin\Debug\Workflows.dll
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\bin\Debug\Workflows.pdb
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\bin\Debug\Common.dll
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\bin\Debug\Common.pdb
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\obj\Debug\Workflows.csprojAssemblyReference.cache
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\obj\Debug\Workflows.csproj.CoreCompileInputs.cache
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\obj\Debug\Workflows.csproj.CopyComplete
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\obj\Debug\Workflows.dll
+C:\Users\Alina\Documents\С#\DynamicsEducationProject\Workflows\obj\Debug\Workflows.pdb
