@@ -1,4 +1,5 @@
 .vs/*
 DynamicsEducationProject/obj/*
 DynamicsEducationProject/ConsoleApp/MyOptions.cs
+DynamicsEducationProject/ConsoleApp/MyData.cs
 packages/*
