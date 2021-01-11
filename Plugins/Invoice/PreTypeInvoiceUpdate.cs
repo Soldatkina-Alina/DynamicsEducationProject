@@ -26,38 +26,5 @@ namespace Plugins.Invoice
             ChangeFact changeFact = new ChangeFact(targetWorker, serviceWorker);
             changeFact.ReactionOnChangeFact();
         }
-
-        //public void Execute(IServiceProvider serviceProvider)
-        //{
-        //    var traceService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
-        //    traceService.Trace("Get ITracingService");
-
-        //    var pluginContext = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
-        //    var targetInvoice = (Entity)pluginContext.InputParameters["Target"];
-
-        //    string name = targetInvoice.GetAttributeValue<string>(ptest_invoice.Fields.ptest_name);
-        //    traceService.Trace("Название trace" + name);
-
-        //    var serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
-        //    var service = serviceFactory.CreateOrganizationService(Guid.Empty);
-
-        //    GetType(service, targetInvoice);
-
-        //    //throw new InvalidPluginExecutionException(name);
-        //}
-
-        //void GetType(IOrganizationService service, Entity target)
-        //{
-        //    string name = target.GetAttributeValue<string>("ptest_name");
-        //    int type = ((OptionSetValue)(target.Attributes["ptest_type"])).Value;
-
-        //    //var r = target.FormattedValues["ptest_type"].ToString();
-
-        //    //target["ptest_type"] = new OptionSetValue(234260000);
-
-        //    var r = ptest_invoice_ptest_type.Avtomaticheskoe_sozdanie;
-
-        //    target["ptest_name"] = "New" + name + type;
-        //}
     }
 }
