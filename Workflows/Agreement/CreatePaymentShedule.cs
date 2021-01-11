@@ -20,7 +20,7 @@ namespace Workflows.Agreement
 
         public InArgument<EntityReference> AgreementReference { get; set; }
 
-        [Output("Is good agreement")]
+        [Output("Agreement don't have invoice with type = Ruchnoe_sozdanie and status  = Payd")]
         public OutArgument<bool> IsValid { get; set; }
 
         protected override void Execute(CodeActivityContext context)
@@ -30,12 +30,11 @@ namespace Workflows.Agreement
             var servicefactory = context.GetExtension<IOrganizationServiceFactory>();
             var service = servicefactory.CreateOrganizationService(null);
 
-            var agreementRef = AgreementReference.Get(context);
-
-            InvoiceWorker invoiceWorker = new InvoiceWorker(service); 
-
             try
             {
+                var agreementRef = AgreementReference.Get(context);
+                InvoiceWorker invoiceWorker = new InvoiceWorker(service);
+
                 if (invoiceWorker.CheckInvoice())
                 {
                     IsValid.Set(context, false);
@@ -50,9 +49,10 @@ namespace Workflows.Agreement
 
                 IsValid.Set(context, true);
             }
-            catch
+            catch (Exception ex)
             {
                 IsValid.Set(context, false);
+                throw new InvalidWorkflowException(ex.Message);
             }
         }
     }

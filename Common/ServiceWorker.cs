@@ -26,7 +26,14 @@ namespace Common
 
         public Entity GetEntityReference(EntityReference entity)
         {
-            return service.Retrieve(entity.LogicalName, entity.Id, new ColumnSet(true));
+            try
+            {
+                return service.Retrieve(entity.LogicalName, entity.Id, new ColumnSet(true));
+            }
+            catch (Exception ex) {
+                traceService.Trace(ex.Message);
+                return null;
+            }
         }
 
         public T GetAttribute<T>(EntityReference entityReference, string Attribute)
@@ -65,9 +72,15 @@ namespace Common
 
         public EntityCollection RetrieveMultiple(QueryExpression queryExpression)
         {
-            return service.RetrieveMultiple(queryExpression);
+            try
+            {
+                return service.RetrieveMultiple(queryExpression);
+            }
+            catch (Exception ex)
+            {
+                traceService.Trace(ex.Message);
+                return null;
+            }
         }
-
-
     }
 }

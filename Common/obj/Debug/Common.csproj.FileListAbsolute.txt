@@ -9,3 +9,13 @@ C:\Users\Alina\Documents\С#\DynamicsEducationProject\Common\obj\Debug\Common.cs
 C:\Users\Alina\Documents\С#\DynamicsEducationProject\Common\obj\Debug\Common.dll
 C:\Users\Alina\Documents\С#\DynamicsEducationProject\Common\obj\Debug\Common.pdb
 C:\Users\Alina\Documents\С#\DynamicsEducationProject\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\bin\Debug\Common.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\bin\Debug\Common.pdb
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\obj\Debug\Common.dll
+C:\Users\Alina\Documents\С#\Dynamics\DynamicsEducationProject\Common\obj\Debug\Common.pdb

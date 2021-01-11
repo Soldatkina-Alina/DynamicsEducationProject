@@ -76,7 +76,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agreement\CreateInvoiceInAllPay.cs" />
     <Compile Include="Agreement\CreatePaymentShedule.cs" />
+    <Compile Include="Agreement\Handler\AgreementWorker.cs" />
     <Compile Include="Agreement\Handler\InvoiceWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
